@@ -6,7 +6,7 @@ Plugin URL: http://vis.nu/droppod
 Description: Quickly upload arbitrary files to an unmanaged directory, otherwise uncontrolled by WordPress.  Simple wrapper around <a href='http://www.dropzonejs.com/'>Dropzone.js</a>.   Includes delete functionality.  Part of the Interest Compound support structure, which is why it says 'contact Sam' anytime something is broken.  Outside of the Interest Compound, there's no implied support, but you're free to contact me anyway. Docs <a href="http://vis.nu/droppod">here</a>.
 Author: Sam Mulvey
 Author URI: http:///vis.nu
-Version: 2 
+Version: 3 
 License: GPL3
 
 */
@@ -60,7 +60,8 @@ function droppod_menus() {
 				  "DropPod",
 				  "manage_options",
 				  "droppod",
-				  "do_droppod");
+				  "do_droppod",
+				  "dashicons-album");
 	
 
 }
